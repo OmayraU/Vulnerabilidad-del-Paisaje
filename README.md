@@ -7,12 +7,12 @@ Los índices de vulnerabilidad son desarrollados a partir de análisis multivari
 
 1. Se identificó las variables ambientales, biofísicas, sociales y económicas para definir el índice, desde varios sitios de meta data, para la clasificación en variables de magnitud de exposición, capacidad de adaptación,y sensibilidad.
 
-Exposición| Capacidad de adaptación | Sensibilidad 
-------------------| :----------------------------------| -----------------------------------
-1. Indicador de complejidad estructural | 1. Distancia a áreas protegidas  | 1. Pendiente  
-2. Indicador del número de personas estudiando|  |2. Distancia a ríos 
-3. Indicador de la disponibilidad de empleo |  |3. Distancia a zonas urbanas 
-4. Distancia a regímenes de inundación |  |4. Distancia a ríos 
+| Exposición                                  | Capacidad de adaptación      | Sensibilidad              |
+| ------------------------------------------- | ---------------------------- | ------------------------- |
+| Indicador de complejidad estructural        | Distancia a áreas protegidas | Pendiente                 |
+| Indicador del número de personas estudiando |                              | Distancia a ríos          |
+| Indicador de la disponibilidad de empleo    |                              | Distancia a zonas urbanas |
+| Distancia a regímenes de inundación         |                              |                           |
 
 
 
