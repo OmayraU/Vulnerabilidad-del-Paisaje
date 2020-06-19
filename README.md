@@ -1,8 +1,10 @@
-# Rueda, V., Reisancho, J., Tello, M. & Urbina, O.
+## Rueda, V., Reisancho, J., Tello, M. & Urbina, O.
 # **Motores de Vulnerabilidad del Cambio del Paisaje**
-# Objetivo del proyecto
-Este estudio tuvo como objetivo determinar la vulnerabilidad de los paisajes del Ecuador en el 2010.
-# Metodología
+
+## Objetivo del proyecto
+Este estudio tuvo como objetivo determinar la vulnerabilidad de los paisajes del Ecuador en el 2015
+## Metodología
+
 Los índices de vulnerabilidad son desarrollados a partir de análisis multivariados de los componentes sociales, ambientales y económicos actuales. La vulnerabilidad como indicador se compone de tres elementos principales como las <u>magnitudes de exposición</u> (estrés del sistema), <u>sensibilidad</u> (grado de estrés en el sistema) y la <u>adaptabilidad</u> (capacidad de respuesta ante el estrés) (McCarthy et al., 2001).
 
 1. Se identificó las variables ambientales, biofísicas, sociales y económicas para definir el índice, desde varios sitios de meta data, para la clasificación en variables de magnitud de exposición, capacidad de adaptación,y sensibilidad.
@@ -53,8 +55,14 @@ data$vulnerability <- (data$exposure+data$sensitivity-data$adaptative)/3
 5. Luego, se visualizó el mismo en los paisajes en Ecuador mediante el uso de
    funciones de QGIS.
 
-# Resultados
-Como resultado del modelo lineal generalizado se obtuvo que el empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
+## Resultados
+Como resultado del modelo lineal generalizado se obtuvo:
+
+
+
+El empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
+
+Por lo que se obtuvo el siguiente mapa de vulnerabilidad de Ecuador en 2015.
 
 ![](https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/Vulnerability_map.png)
 
