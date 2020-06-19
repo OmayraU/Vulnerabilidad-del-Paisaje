@@ -54,7 +54,8 @@ data$vulnerability <- (data$exposure+data$sensitivity-data$adaptative)/3
 # Resultados
 Como resultado del modelo lineal generalizado se obtuvo que el empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
 
+![](C:\Users\juank\Documents\GitHub\Vulnerabilidad-del-Paisaje\Vulnerability_map.png)
 
-![](C:\Users\juank\Pictures\Mapa_vulenrabilida.png)
+
 
 [Metadata]:
