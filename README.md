@@ -1,8 +1,7 @@
 # Rueda, V., Reisancho, J., Tello, M. & Urbina, O.
 # **Motores de Vulnerabilidad del Cambio del Paisaje**
 # Objetivo del proyecto
-Este estudio tuvo como objetivo determinar la vulnerabilidad de los paisajes del
-Ecuador en el 2010.
+Este estudio tuvo como objetivo determinar la vulnerabilidad de los paisajes del Ecuador en el 2010.
 # Metodología
 Los índices de vulnerabilidad son desarrollados a partir de análisis multivariados de los componentes sociales, ambientales y económicos actuales. La vulnerabilidad como indicador se compone de tres elementos principales como las <u>magnitudes de exposición</u> (estrés del sistema), <u>sensibilidad</u> (grado de estrés en el sistema) y la <u>adaptabilidad</u> (capacidad de respuesta ante el estrés) (McCarthy et al., 2001).
 
@@ -17,9 +16,9 @@ Exposición| Capacidad de adaptación | Sensibilidad
 
 
 
-La descripción y fuente de las variables pueden ser encontradas [Metadata][].
+La descripción y fuente de las variables pueden ser encontradas en [Metadata][].
 
-2. Utilizando el software Quantum Gis se realizó la reclasificación con la herramienta *reclass* de las diferentes capas raster escogidas. Las variables socioeconómicas fueron rasterizadas mediante la herramienta *Empirical Bayesian Kriging* en ArcGis y para la resolución deseada de los archivos raster se utilizó la herramienta *aggregate*, luego se realizó en ArcGis una extracción por puntos aleatorios de los valores obtenidos de las variables de interés y la base de datos creada fue exportada a RStudio.
+2. Utilizando el software Quantum GIS se realizó la reclasificación con la herramienta *reclass* de las diferentes capas raster escogidas. Las variables socioeconómicas fueron rasterizadas mediante la herramienta *Empirical Bayesian Kriging* en ArcGis y para la resolución deseada de los archivos raster se utilizó la herramienta *aggregate*, luego se realizó en ArcGis una extracción por puntos aleatorios de los valores obtenidos de las variables de interés y la base de datos creada fue exportada a RStudio.
 3. Se realizó el siguiente código en R studio para obtener las variables más
    influyentes.
 
@@ -58,4 +57,4 @@ Como resultado del modelo lineal generalizado se obtuvo que el empleo y distanci
 
 ![](C:\Users\juank\Pictures\Mapa_vulenrabilida.png)
 
-[Metadata]:https://docs.google.com/spreadsheets/d/1CFMpLbmtGVD8ZFM9-QfyhbEWvP5bZB5PeWxauTsqPgI/edit?usp=sharing
+[Metadata]:
