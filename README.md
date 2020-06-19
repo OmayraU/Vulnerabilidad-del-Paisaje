@@ -19,6 +19,8 @@ Los índices de vulnerabilidad son desarrollados a partir de análisis multivari
 La descripción y fuente de las variables pueden ser encontradas en [Metadata][].
 
 2. Utilizando el software Quantum GIS se realizó la reclasificación con la herramienta *reclass* de las diferentes capas raster escogidas. Las variables socioeconómicas fueron rasterizadas mediante la herramienta *Empirical Bayesian Kriging* en ArcGis y para la resolución deseada de los archivos raster se utilizó la herramienta *aggregate*, luego se realizó en ArcGis una extracción por puntos aleatorios de los valores obtenidos de las variables de interés y la base de datos creada fue exportada a RStudio.
+
+
 3. Se realizó el siguiente código en R studio para obtener las variables más
    influyentes.
 
@@ -54,8 +56,8 @@ data$vulnerability <- (data$exposure+data$sensitivity-data$adaptative)/3
 # Resultados
 Como resultado del modelo lineal generalizado se obtuvo que el empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
 
-![](C:\Users\juank\Documents\GitHub\Vulnerabilidad-del-Paisaje\Vulnerability_map.png)
+![](https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/Vulnerability_map.png)
 
 
 
-[Metadata]: C:\Users\juank\Documents\GitHub\Vulnerabilidad-del-Paisaje\Metadatos descripción.xlsx
+[Metadata]: https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/Metadatos%20descripci%C3%B3n.xlsx
