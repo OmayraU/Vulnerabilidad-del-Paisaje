@@ -58,4 +58,4 @@ Como resultado del modelo lineal generalizado se obtuvo que el empleo y distanci
 
 
 
-[Metadata]:
+[Metadata]: C:\Users\juank\Documents\GitHub\Vulnerabilidad-del-Paisaje\Metadatos descripción.xlsx
