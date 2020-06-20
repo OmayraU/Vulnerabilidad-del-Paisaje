@@ -14,16 +14,16 @@ Los índices de vulnerabilidad son desarrollados a partir de análisis multivari
 | Indicador de complejidad estructural        | Distancia a áreas protegidas | Pendiente                 |
 | Indicador del número de personas estudiando |                              | Distancia a ríos          |
 | Indicador de la disponibilidad de empleo    |                              | Distancia a zonas urbanas |
-| Distancia a regímenes de inundación         |                              |                           |
+| Distancia a regímenes de inundación         |                              | Distancia a vías          |
 
 
 
 La descripción y fuente de las variables pueden ser encontradas en [Metadata][].
 
-2. Utilizando el software Quantum GIS se realizó la reclasificación con la herramienta *reclass* de las diferentes capas raster escogidas. Las variables socioeconómicas fueron rasterizadas mediante la herramienta *Empirical Bayesian Kriging* en ArcGis y para la resolución deseada de los archivos raster se utilizó la herramienta *aggregate*, luego se realizó en ArcGis una extracción por puntos aleatorios de los valores obtenidos de las variables de interés y la base de datos creada fue exportada a RStudio.
+2. Utilizando el software Quantum GIS se realizó la reclasificación con la herramienta *reclass* de las diferentes capas raster escogidas. Las variables socioeconómicas fueron rasterizadas mediante la herramienta *Empirical Bayesian Kriging* en ArcGis y para la resolución deseada de los archivos ráster se utilizó la herramienta *aggregate*, luego se realizó en ArcGis una extracción por puntos aleatorios de los valores obtenidos de las variables de interés y la base de datos creada fue exportada a R Studio.
 
 
-3. Se realizó el siguiente código en R studio para obtener las variables más
+3. Se realizó el siguiente código en R Studio para obtener las variables más
    influyentes.
 
 Normalización de variables (Ejemplo):
@@ -56,15 +56,15 @@ data$vulnerability <- (data$exposure+data$sensitivity-data$adaptative)/3
    funciones de QGIS.
 
 ## Resultados
-Como resultado del modelo lineal generalizado se obtuvo:
-
-
-
-El empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
+Como resultado del modelo lineal generalizado se obtuvo que el empleo y distancia a áreas de inundación, a poblados urbanos, y a vías son las más influyentes en la vulnerabilidad de los paisajes de Ecuador.
 
 Por lo que se obtuvo el siguiente mapa de vulnerabilidad de Ecuador en 2015.
 
 ![](https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/Vulnerability_map.png)
+
+En el mapa preliminar obtenido por los resultados del índice de vulnerabilidad se puede observar que las zonas de color amarillo, naranja y rojo (rango entre 58.7 a 100)  representa un alto índice de vulnerabilidad de los paisajes donde se encuentran ubicados asentamientos humanos densamente poblados. En contraste, se observa regiones con índices bajo a medio bajo (18.7-38.7) dispersas en la zona interandina en su mayoría. Esto último está altamente relacionado a la dificultad de acceso de carreteras y servicios básicos debido a su orografía compleja. 
+
+------
 
 
 
