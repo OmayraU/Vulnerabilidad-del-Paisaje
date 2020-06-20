@@ -52,6 +52,7 @@ data$exposure <-
 (data$pendiente+data$dist_rios+data$dist_vias+data$dist_urban)/4
 data$vulnerability <- (data$exposure+data$sensitivity-data$adaptative)/3
 ```
+El código de cálculo completo, se puede encontrar aquí [Código][].
 
 5. <p style="text-align:justify;">Luego, se visualizó el mismo en los paisajes en Ecuador mediante el uso de  funciones de QGIS.</p>
 
@@ -68,3 +69,4 @@ Por lo que se obtuvo el siguiente mapa de vulnerabilidad de Ecuador en 2015.
 
 
 [Metadata]: https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/Metadatos%20descripci%C3%B3n.xlsx
+[Código]: https://github.com/OmayraU/Vulnerabilidad-del-Paisaje/blob/master/vulnerability.r
