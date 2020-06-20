@@ -5,7 +5,7 @@
 Este estudio tuvo como objetivo determinar la vulnerabilidad de los paisajes del Ecuador en el 2015
 ## Metodología
 
-Los índices de vulnerabilidad son desarrollados a partir de análisis multivariados de los componentes sociales, ambientales y económicos actuales. La vulnerabilidad como indicador se compone de tres elementos principales como las <u>magnitudes de exposición</u> (estrés del sistema), <u>sensibilidad</u> (grado de estrés en el sistema) y la <u>adaptabilidad</u> (capacidad de respuesta ante el estrés).
+<p style="text-align:justify;">Los índices de vulnerabilidad son desarrollados a partir de análisis multivariados de los componentes sociales, ambientales y económicos actuales. La vulnerabilidad como indicador se compone de tres elementos principales como las <u>magnitudes de exposición</u> (estrés del sistema), <u>sensibilidad</u> (grado de estrés en el sistema) y la <u>adaptabilidad</u> (capacidad de respuesta ante el estrés).</p>
 
 1. Se identificó las variables ambientales, biofísicas, sociales y económicas para definir el índice, desde varios sitios de meta data, para la clasificación en variables de magnitud de exposición, capacidad de adaptación,y sensibilidad.
 
